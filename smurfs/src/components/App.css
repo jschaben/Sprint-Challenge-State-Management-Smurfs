@@ -1,7 +1,10 @@
 .App {
   text-align: center;
+  font-family: 'Lemonada', cursive;
 }
-
+body{
+  background-color: aquamarine;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
@@ -26,3 +29,66 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.smurf-card {
+  width: 250px;
+  height: 250px;
+  background-color:#60aee9;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  border-radius: 12px;
+  margin: 20px;
+}
+
+.smurf-card h1 {
+  font-size: 32px;
+}
+
+.smurfs-wrapper {
+  background: url(http://pngimg.com/uploads/smurf/smurf_PNG63.png);
+  background-size: auto; 
+  height: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  padding: 50px;
+}
+
+.smurf-form {
+  width: 55%;
+  margin: 0 auto 40px;
+  font-size: 18px;
+}
+
+.smurf-form form {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.smurf-form input {
+  text-align: center;
+  background-color: #88ccff;
+  height: 60px;
+  font-size: 22px;
+  margin: 5px 0px;
+  border-radius: 12px;
+  outline: none;
+}
+
+.smurf-form button {
+  height: 80px;
+  color: #fff;
+  background-color: #60aee9;
+  font-size: 32px;
+  border-radius: 12px;
+  outline: none;
+}
+
+
